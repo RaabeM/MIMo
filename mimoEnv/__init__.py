@@ -26,7 +26,7 @@ register(id='MIMoSelfBody-v0',
          max_episode_steps=500, 
          )
 
-register(id='MIMoSaccade-v0',
-         entry_point='mimoEnv.envs:MIMoSaccadeEnv',
+register(id='MIMoBinocular-v0',
+         entry_point='mimoEnv.envs:MIMoBinocularEnv',
          max_episode_steps=500, 
          )

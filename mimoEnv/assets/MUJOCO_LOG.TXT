@@ -1,0 +1,15 @@
+Mon Aug  8 11:32:22 2022
+WARNING: Nan, Inf or huge value in QACC at DOF 59. The simulation is unstable. Time = 0.0350.
+
+Mon Aug  8 11:52:01 2022
+WARNING: Nan, Inf or huge value in QACC at DOF 59. The simulation is unstable. Time = 0.0350.
+
+Mon Aug  8 12:02:44 2022
+WARNING: Nan, Inf or huge value in QACC at DOF 59. The simulation is unstable. Time = 0.0350.
+
+Mon Aug  8 14:08:36 2022
+ERROR: Auxiliary framebuffer is not complete, error 0x8cd6
+
+Mon Aug  8 15:23:35 2022
+WARNING: Nan, Inf or huge value in QACC at DOF 59. The simulation is unstable. Time = 0.0350.
+
