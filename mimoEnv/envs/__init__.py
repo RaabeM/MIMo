@@ -6,3 +6,4 @@ from mimoEnv.envs.saccades import MIMoSaccadesEnv
 from mimoEnv.envs.selfbody import MIMoSelfBodyEnv
 from mimoEnv.envs.eyehand import MIMoEyeHandEnv
 from mimoEnv.envs.binocular import MIMoBinocularEnv
+from mimoEnv.envs.binoc_saccade import MIMoBinoc_SaccadeEnv

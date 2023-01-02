@@ -51,3 +51,8 @@ register(id='MIMoBinocular-v0',
          entry_point='mimoEnv.envs:MIMoBinocularEnv',
          max_episode_steps=10, 
          )
+
+register(id='MIMoBinoc_Saccade-v0',
+         entry_point='mimoEnv.envs:MIMoBinoc_SaccadeEnv',
+         max_episode_steps=10, 
+         )

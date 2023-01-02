@@ -5,7 +5,7 @@
         
         <!--targets-->
         <texture name="texture1" type="2d" file="../../../../data/texture1.png"/>
-        <material name="target-texture" texture="texture1"/>
+        <!--<material name="target-texture" texture="texture1"/> -->
 
         <texture name="texture2" type="2d" file="../../../../data/texture2.png"/>
         <texture name="texture3" type="2d" file="../../../../data/texture3.png"/>

@@ -50,7 +50,12 @@
 						<joint name="robot:left_eye_vertical" type="hinge" pos="0 0 0" axis="0 -1 0" range="-47 33" stiffness=".10" damping=".015" frictionloss=".001"/>
 						<joint name="robot:left_eye_torsional" type="hinge" pos="0 0 0" axis="-1 0 0" range="-8 8" stiffness=".10" damping=".015" frictionloss=".001"/>
 						<geom type="sphere" material="eye_left" size=".01125" pos="0 0 0"/>
-						<camera name="eye_left" mode="fixed" fovy="18" pos="0.01125 0 0" euler="90 -90 0"/>
+
+						<!-- MR: Feveated cameras -->
+						<camera name="eye_left1" mode="fixed" fovy="8"  pos="0.01125 0 0" euler="90 -90 0"/>
+						<camera name="eye_left2" mode="fixed" fovy="22" pos="0.01125 0 0" euler="90 -90 0"/>
+						<camera name="eye_left3" mode="fixed" fovy="40" pos="0.01125 0 0" euler="90 -90 0"/>
+						<camera name="eye_left4" mode="fixed" fovy="60" pos="0.01125 0 0" euler="90 -90 0"/>
 					</body>
 					<body name="right_eye" pos=".07 -.0245 .067375">
 						<site name="torque_right_eye" type="sphere" size="0.01" pos="0 0 0" group="4"/>
@@ -58,7 +63,12 @@
 						<joint name="robot:right_eye_vertical" type="hinge" pos="0 0 0" axis="0 -1 0" range="-47 33" stiffness=".10" damping=".015" frictionloss=".001"/>
 						<joint name="robot:right_eye_torsional" type="hinge" pos="0 0 0" axis="1 0 0" range="-8 8" stiffness=".10" damping=".015" frictionloss=".001"/>
 						<geom type="sphere" material="eye_right" size=".01125" pos="0 0 0"/>
-						<camera name="eye_right" mode="fixed" fovy="18" pos="0.01125 0 0" euler="90 -90 0"/>
+
+						<!-- MR: Feveated cameras -->
+						<camera name="eye_right1" mode="fixed" fovy="8" pos="0.01125 0 0" euler="90 -90 0"/>
+						<camera name="eye_right2" mode="fixed" fovy="22" pos="0.01125 0 0" euler="90 -90 0"/>
+						<camera name="eye_right3" mode="fixed" fovy="44" pos="0.01125 0 0" euler="90 -90 0"/>
+						<camera name="eye_right4" mode="fixed" fovy="60" pos="0.01125 0 0" euler="90 -90 0"/>
 					</body>
 				</body>
 				
@@ -83,7 +93,7 @@
 							<body name="right_fingers" pos="0 0 .0416"> <!-- Finger length is 5.14 cm, 1 cm overlap between palm and fingers -->
 								<joint name="robot:right_fingers" type="hinge" pos="0 0 0" axis="-1 0 0" springref="-40" range="-160 8" stiffness=".017" damping=".018" frictionloss=".0023"/>
 								<site name="torque_right_fingers" type="sphere" size="0.01" pos="0 0 0" group="4"/>
-								<geom type="box" size=".0229 .01 .0207" pos="0 0 .0207" friction="5 0.02 0.01" material="target-texture"/>
+								<geom type="box" size=".0229 .01 .0207" pos="0 0 .0207" friction="5 0.02 0.01"/> <!-- MR:TODO: material="target-texture" -->
 								<geom type="cylinder" size=".01 .023" pos="0 0 .0414" euler="0 90 0" friction="5 0.02 0.01"/>
 							</body>
 						</body>
